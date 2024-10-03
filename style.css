@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+}
+.toDoContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* div{
+    justify-content: center;
+    display: flex;
+} */
+.items-container{
+    margin: 0 auto;
+    width: 100%;
+   
+    
+}
+
+.buttonsCont{
+    /* border: 1px black solid; */
+    display: flex;
+    justify-content: space-around;
+    width: 175px;
+    /* margin-left: 565px; */
+    
+
+}
+
+input{
+    border: 0.5px solid gray;
+    margin-top: 20px;
+    padding: 5px;
+    margin-right: 5px;
+    width: 650px;
+    height: 20px;
+
+}
+
+button{
+    margin-top: 20px;
+    background-color: rgb(37, 145, 213);
+    width: 70px;
+
+}
+
+.to-do-element-cont{
+    display: flex;
+    justify-content: space-between;
+    /* height: 40px; */
+    margin-top: 15px;
+    background-color: rgb(236, 230, 230);
+
+}
+
+.container-buttons{
+    background-color: rgb(35, 223, 35);
+    color: white;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.deleteButton{
+    background-color: red;
+}
+
+.finishButton{
+    background-color: green;
+
+    /* text-align: left; */
+}
+
+.pElement{
+    /* margin-left: 760px; */
+    margin-top: 27px;
+}
+
+.line{
+    text-decoration: line-through;
+
+}
